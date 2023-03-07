@@ -257,3 +257,50 @@ ol {
     color: #fff;
     font-size: 16px;
 }
+
+/* Blog section */
+
+.blog {
+    padding: 10px 60px;
+    margin-bottom: 30px;
+}
+
+.blog .section-heading {
+    color: #000;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.blog .description {
+    color: #000;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.card-group {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .data {
+    padding: 20px;
+}
+
+.card-title {
+    margin-bottom: 20px;
+}
+
+.card-description {
+    font-size: 16px;
+}
