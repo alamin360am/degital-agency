@@ -214,10 +214,12 @@ ol {
 .call-section {
     margin: 0 150px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     background-color: #f52c2c;
     padding: 30px;
-    margin-top: -60px;
+    margin-top: -100px;
     border-radius: 10px;
 }
 
@@ -225,10 +227,21 @@ ol {
     display: flex;
     align-items: center;
     gap: 15px;
+    position: relative;
+}
+
+.call::after {
+    content: '';
+    height: 120px;
+    width: 3px;
+    background-color: #fff;
+    position: absolute;
+    right: 30px;
 }
 
 .call img {
-    width: 40%;
+    width: 25%;
+    margin-right: 10px;
 }
 
 .call div p {
@@ -240,3 +253,7 @@ ol {
     font-size: 30px;
 }
 
+.call-details {
+    color: #fff;
+    font-size: 16px;
+}
