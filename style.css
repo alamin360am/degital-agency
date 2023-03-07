@@ -209,4 +209,34 @@ ol {
     font-size: 16px;
 }
 
-/*  */
+/* call section */
+
+.call-section {
+    margin: 0 150px;
+    display: flex;
+    gap: 10px;
+    background-color: #f52c2c;
+    padding: 30px;
+    margin-top: -60px;
+    border-radius: 10px;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.call img {
+    width: 40%;
+}
+
+.call div p {
+    font-size: 10px;
+    color: #fff;
+}
+
+.call div p.number {
+    font-size: 30px;
+}
+
